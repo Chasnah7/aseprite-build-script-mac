@@ -1,0 +1,1 @@
+# aseprite-build-script-mac
