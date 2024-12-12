@@ -15,7 +15,7 @@ export ASEPRITE=$DEPS/aseprite #DO NOT MODIFY!
 
 export SKIA=$DEPS/skia #DO NOT MODIFY!
 
-export ASEZIP=https://github.com/aseprite/aseprite/releases/download/v1.3.2/Aseprite-v1.3.2-Source.zip
+export ASEZIP=https://github.com/aseprite/aseprite/releases/download/v1.3.10.1/Aseprite-v1.3.10.1-Source.zip
 
 export SKIAZIP=https://github.com/aseprite/skia/releases/download/m102-861e4743af/Skia-macOS-Release-arm64.zip
 
