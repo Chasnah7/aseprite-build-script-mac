@@ -1,6 +1,6 @@
 # Aseprite-Build-Script-Mac
 
-**Created by [Chasnah](https://chasnah7.github.io/)**
+**Created by [Chasnah](https://chasnah.com/)**
 
 ## A customizable, automated macOS Zsh script for easily compiling Aseprite
 
