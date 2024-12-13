@@ -4,7 +4,7 @@
 
 ## A customizable, automated macOS Zsh script for easily compiling Aseprite
 
-Please refer to Aseprite's [INSTALL.md](https://github.com/aseprite/aseprite/blob/845ff177880822f33939cfbe58ca5bebaf4efbea/INSTALL.md) to check for any updates to Aseprite installation procedure.
+Please refer to Aseprite's [INSTALL.md](https://github.com/aseprite/aseprite/blob/v1.3.10.1/INSTALL.md) to check for any updates to Aseprite installation procedure.
 
 This script was tested in macOS Sonoma on a M1 Pro Macbook Pro. This script will target either Intel x86_64 or Apple Silicon arm64 based on what architecture is selected in paths.
 
