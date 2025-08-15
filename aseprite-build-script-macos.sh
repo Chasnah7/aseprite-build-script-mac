@@ -2,7 +2,7 @@
 emulate -LR zsh
 
 # REMEMBER TO CONSULT README.MD FIRST!
-# IF YOU RECIEVED THIS SCRIPT FROM ANYWHERE OTHER THAN https://github.com/Chasnah7/aseprite-build-script
+# IF YOU RECIEVED THIS SCRIPT FROM ANYWHERE OTHER THAN https://github.com/Chasnah7/aseprite-build-script-mac OR https://codeberg.org/Chasnah/aseprite-build-script-mac
 # DOUBLE CHECK TO MAKE SURE IT HAS NOT BEEN MALICIOUSLY EDITED.
 # THE AUTHOR CLAIMS NO LIABILITY NOR WARRANTY FOR THIS SCRIPT
 # USE AT YOUR OWN RISK.
@@ -15,11 +15,11 @@ export ASEPRITE=$DEPS/aseprite #DO NOT MODIFY!
 
 export SKIA=$DEPS/skia #DO NOT MODIFY!
 
-export ASEZIP=https://github.com/aseprite/aseprite/releases/download/v1.3.10.1/Aseprite-v1.3.10.1-Source.zip
+export ASEZIP=https://github.com/aseprite/aseprite/releases/download/v1.3.14.2/Aseprite-v1.3.14.4-Source.zip
 
-export SKIAZIP=https://github.com/aseprite/skia/releases/download/m102-861e4743af/Skia-macOS-Release-arm64.zip
+export SKIAZIP=https://github.com/aseprite/skia/releases/download/m124-08a5439a6b/Skia-macOS-Release-arm64.zip
 
-#export SKIAZIP=https://github.com/aseprite/skia/releases/download/m102-861e4743af/Skia-macOS-Release-x64.zip
+#export SKIAZIP=https://github.com/aseprite/skia/releases/download/m124-08a5439a6b/Skia-macOS-Release-x64.zip
 
 #UNCOMMENT ABOVE IF YOU PLAN ON TARGETING INTEL BASED MACS
 

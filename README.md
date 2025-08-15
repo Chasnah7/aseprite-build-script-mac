@@ -4,7 +4,7 @@
 
 ## A customizable, automated macOS Zsh script for easily compiling Aseprite
 
-Please refer to Aseprite's [INSTALL.md](https://github.com/aseprite/aseprite/blob/v1.3.10.1/INSTALL.md) to check for any updates to Aseprite installation procedure.
+Please refer to Aseprite's [INSTALL.md](https://github.com/aseprite/aseprite/blob/v1.3.14.4/INSTALL.md) to check for any updates to Aseprite installation procedure.
 
 This script was tested in macOS Sonoma on a M1 Pro Macbook Pro. This script will target either Intel x86_64 or Apple Silicon arm64 based on what architecture is selected in paths.
 
@@ -13,10 +13,10 @@ both the Aseprite source code and a pre-built package of Skia then run the build
 
 ## Dependencies
 
-* The latest version of [Cmake](https://cmake.org) (3.16 or greater)
+* The latest version of [Cmake](https://cmake.org)
 * [Curl](https://curl.se/) (Bundled with macOS)
 * [Ninja](https://ninja-build.org/) build system
-* Minimum [Xcode 13.1](https://apps.apple.com/us/app/xcode/id497799835?mt=12) and macOS 11.3 SDK
+* Minimum [Xcode 16.3](https://apps.apple.com/us/app/xcode/id497799835?mt=12) and macOS 15.4 SDK
 * Installing [Homebrew](<https://homebrew.sh/>) is recommended to install several dependencies:
 
          brew install ninja cmake
@@ -65,7 +65,7 @@ After adjusting paths to fit your build environment simply execute the script an
 
 Aseprite source code and a pre-built copy of Skia are curled into the temp directory and extracted into their respective subdirectories.
 
-The script will then begin the build process based on instructions from [INSTALL.md](https://github.com/aseprite/aseprite/blob/main/INSTALL.md).
+The script will then begin the build process based on instructions from [INSTALL.md](https://github.com/aseprite/aseprite/blob/v1.3.14.4/INSTALL.md).
 
 Upon completion the script will output a DIR command displaying the newly compiled Aseprite located in the
 $ASEPRITE\build\bin directory. You can copy the executable and data folder located in the previously mentioned bin directory into a new folder named aseprite.app and it will function as a normal macOS application.
